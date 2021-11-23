@@ -51,6 +51,9 @@
                 <label >Ingredientes</label>
                  <asp:TextBox  runat="server" type="text" id="txtingredientes"/>
 
+                <label >Precio</label>
+                 <asp:TextBox  runat="server" type="text" id="txtprecio"/>
+
                
 
 

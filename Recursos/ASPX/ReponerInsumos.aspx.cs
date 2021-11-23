@@ -53,7 +53,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             txtTipoProducto.Enabled = false;
             txtPrecioUnidad.Enabled = false;
             txtcantidad.Enabled = true;
-            txtStock.Enabled = false;
+            txtStock.Enabled = true;
             txtP_ID_PROVEEDOR.Enabled = false;
         }
 

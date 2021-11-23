@@ -30,6 +30,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
                 comando.Parameters.Add("Nreceta", OracleDbType.Varchar2).Value = txtRecetaN.Text;
                 comando.Parameters.Add("Ingredent", OracleDbType.Varchar2).Value = txtingredientes.Text;
+                comando.Parameters.Add("price", OracleDbType.Varchar2).Value = txtprecio.Text;
                 comando.ExecuteNonQuery();
                 Response.Write("Se inserto exitosamente");
                 conexion.Close();

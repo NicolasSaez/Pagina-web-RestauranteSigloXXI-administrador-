@@ -18,6 +18,7 @@
             <li><a href="IngresarRecetas.aspx">Ingresar Receta</a></li>
             <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
             <li><a href="AsignarMesa.aspx">Asignar Mesa</a></li>
+            <li><a href="ReponerInsumos.aspx">Reponer Insumos</a></li>
 			
 		</ul>
         <div>

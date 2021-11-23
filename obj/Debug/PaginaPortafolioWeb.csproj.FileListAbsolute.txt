@@ -56,6 +56,5 @@ D:\repositorio c#\PaginaPortafolioWeb\bin\Microsoft.CodeDom.Providers.DotNetComp
 D:\repositorio c#\PaginaPortafolioWeb\bin\Oracle.DataAccess.dll
 D:\repositorio c#\PaginaPortafolioWeb\bin\Oracle.ManagedDataAccess.dll
 D:\repositorio c#\PaginaPortafolioWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\repositorio c#\PaginaPortafolioWeb\obj\Debug\PaginaPortafolioWeb.csproj.CopyComplete
 D:\repositorio c#\PaginaPortafolioWeb\obj\Debug\PaginaPortafolioWeb.dll
 D:\repositorio c#\PaginaPortafolioWeb\obj\Debug\PaginaPortafolioWeb.pdb

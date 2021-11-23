@@ -71,7 +71,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\jquery-ui.css" />
+    <Content Include="Content\jquery-ui.min.css" />
+    <Content Include="Content\jquery-ui.structure.css" />
+    <Content Include="Content\jquery-ui.structure.min.css" />
+    <Content Include="Content\jquery-ui.theme.css" />
+    <Content Include="Content\jquery-ui.theme.min.css" />
+    <Content Include="css\pikaday.css" />
+    <Content Include="css\site.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="css\triangle.css" />
     <Content Include="Recursos\ASPX\AsignarMesa.aspx" />
+    <Content Include="Recursos\ASPX\index.aspx" />
     <Content Include="Recursos\ASPX\IngresarRecetas.aspx" />
     <Content Include="Recursos\ASPX\MantenedorMesa.aspx" />
     <Content Include="Recursos\ASPX\MantenedorProducto.aspx" />
@@ -81,16 +98,98 @@
     <Content Include="Recursos\ASPX\MantenedorCliente.aspx" />
     <Content Include="Recursos\ASPX\ReponerInsumos.aspx" />
     <Content Include="Recursos\ASPX\SolicitarInsumos.aspx" />
+    <Content Include="Recursos\CSS2\animate.min.css" />
+    <Content Include="Recursos\CSS2\bootstrap-datetimepicker.css" />
+    <Content Include="Recursos\CSS2\bootstrap-select.min.css" />
+    <Content Include="Recursos\CSS2\bootstrap.min.css" />
+    <Content Include="Recursos\CSS2\colors\moderate-green.css" />
+    <Content Include="Recursos\CSS2\colors\orange.css" />
+    <Content Include="Recursos\CSS2\colors\strong-blue.css" />
+    <Content Include="Recursos\CSS2\colors\vivid-yellow.css" />
+    <Content Include="Recursos\CSS2\flaticon.css" />
+    <Content Include="Recursos\CSS2\font-awesome.min.css" />
+    <Content Include="Recursos\CSS2\normalize.css" />
+    <Content Include="Recursos\CSS2\owl.carousel.css" />
+    <Content Include="Recursos\CSS2\owl.theme.css" />
+    <Content Include="Recursos\CSS2\responsive.css" />
+    <Content Include="Recursos\CSS2\slick.css" />
+    <Content Include="Recursos\CSS2\style.css" />
     <Content Include="Recursos\CSS\Estilos.css" />
     <Content Include="Recursos\CSS\Estilos2.css" />
     <Content Include="Recursos\CSS\font-awesome.css" />
     <Content Include="Recursos\CSS\StyleMenu.css" />
     <Content Include="Recursos\fonts\fontawesome-webfont.svg" />
+    <Content Include="Recursos\IMAGES\about-inset.jpg" />
+    <Content Include="Recursos\IMAGES\about-main.jpg" />
+    <Content Include="Recursos\IMAGES\back.png" />
+    <Content Include="Recursos\IMAGES\back_hover.png" />
+    <Content Include="Recursos\IMAGES\banner.jpg" />
+    <Content Include="Recursos\IMAGES\blog_bg.jpg" />
+    <Content Include="Recursos\IMAGES\calendario.png" />
+    <Content Include="Recursos\IMAGES\coffee.png" />
+    <Content Include="Recursos\IMAGES\featured-image-01.jpg" />
+    <Content Include="Recursos\IMAGES\featured-image-02.jpg" />
+    <Content Include="Recursos\IMAGES\featured-image-03.jpg" />
+    <Content Include="Recursos\IMAGES\featured-image-04.jpg" />
+    <Content Include="Recursos\IMAGES\food.png" />
+    <Content Include="Recursos\IMAGES\footer_background.jpg" />
+    <Content Include="Recursos\IMAGES\full-bg.png" />
+    <Content Include="Recursos\IMAGES\gallery_01.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_02.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_03.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_04.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_05.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_06.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_07.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_08.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_09.jpg" />
+    <Content Include="Recursos\IMAGES\gallery_10.jpg" />
+    <Content Include="Recursos\IMAGES\icon-calendar-2.png" />
+    <Content Include="Recursos\IMAGES\icon_top.png" />
+    <Content Include="Recursos\IMAGES\loader-animation.gif" />
+    <Content Include="Recursos\IMAGES\logo.png" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-01.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-02.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-03.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-04.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-05.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-06.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-07.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-08.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-09.jpg" />
+    <Content Include="Recursos\IMAGES\menu-item-thumbnail-10.jpg" />
+    <Content Include="Recursos\IMAGES\newsletter-bg.jpg" />
+    <Content Include="Recursos\IMAGES\next.png" />
+    <Content Include="Recursos\IMAGES\next_hover.png" />
+    <Content Include="Recursos\IMAGES\special-menu-1.jpg" />
+    <Content Include="Recursos\IMAGES\special-menu-2.jpg" />
+    <Content Include="Recursos\IMAGES\special-menu-3.jpg" />
+    <Content Include="Recursos\IMAGES\special_menu_bg.jpg" />
+    <Content Include="Recursos\IMAGES\staff-01.jpg" />
+    <Content Include="Recursos\IMAGES\staff-02.jpg" />
+    <Content Include="Recursos\IMAGES\staff-03.jpg" />
+    <Content Include="Recursos\IMAGES\store.png" />
+    <Content Include="Recursos\IMAGES\team_bg.jpg" />
     <Content Include="Recursos\IMG\calendario.png" />
     <Content Include="Recursos\IMG\fondo1.jpg" />
     <Content Include="Recursos\IMG\user-6.png" />
+    <Content Include="Recursos\js\all.js" />
+    <Content Include="Recursos\js\bootstrap.min.js" />
+    <Content Include="Recursos\js\custom.js" />
     <Content Include="Recursos\js\jquery-3.2.1.js" />
+    <Content Include="Recursos\js\modernizer.js" />
+    <Content Include="Recursos\js\pikaday.js" />
     <Content Include="Recursos\js\script.js" />
+    <None Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.datetimepicker.js" />
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.core.min.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +200,13 @@
     </Compile>
     <Compile Include="Recursos\ASPX\AsignarMesa.aspx.designer.cs">
       <DependentUpon>AsignarMesa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Recursos\ASPX\IngresarRecetas.aspx.cs">
       <DependentUpon>IngresarRecetas.aspx</DependentUpon>
