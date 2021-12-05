@@ -19,10 +19,12 @@
             <h2>Iniciar Sesion</h2>
              <form runat="server">
                    <asp:Label ID="lblusuario"  runat ="server" Text="Usuario" CssClass="lblusuario"></asp:Label>
-                   <asp:TextBox ID="tbusuario"  runat="server" placeholder="Nombre de usuario" CssClass="tbusuario"></asp:TextBox>
+                   <asp:TextBox ID="tbusuario"  runat="server" placeholder="Nombre de usuario" CssClass="tbusuario" required=""></asp:TextBox>
                    <asp:Label ID="lblcontraseña" runat="server" Text="Contraseña" CssClass="lblcontraseña"></asp:Label>
-                   <asp:TextBox ID="tbcontraseña" runat="server" placeholder="Contraseña" CssClass="tbcontraseña"></asp:TextBox>
-                 <a href="index.aspx">pagina de clientes</a>
+                   <asp:TextBox ID="tbcontraseña" runat="server" placeholder="Contraseña" CssClass="tbcontraseña" TextMode="Password" required=""></asp:TextBox>
+                   <br />
+                    <a href="index.aspx">pagina de clientes</a>
+                 <br />
                    <asp:Button ID="Btningresar"  runat="server" Text="Ingresar" OnClick="Btningresar_Click"  CssClass="Btningresar"/>  
                  
              </form>

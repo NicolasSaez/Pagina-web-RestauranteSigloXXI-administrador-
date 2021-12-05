@@ -11,52 +11,43 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
 {
 
 
-    public partial class ReponerInsumos
+    public partial class RegistrarUsuarios
     {
 
         /// <summary>
-        /// Control txtidproducto.
+        /// Control txtusuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtidproducto;
+        protected global::System.Web.UI.WebControls.TextBox txtusuario;
 
         /// <summary>
-        /// Control txtnombrep.
+        /// Control txtcontraseña.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtnombrep;
+        protected global::System.Web.UI.WebControls.TextBox txtcontraseña;
 
         /// <summary>
-        /// Control txtcantidad.
+        /// Control cmbroles.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtcantidad;
+        protected global::System.Web.UI.WebControls.DropDownList cmbroles;
 
         /// <summary>
-        /// Control btnreponer.
+        /// Control btnAsignar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnreponer;
-
-        /// <summary>
-        /// Control gvinsumos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvinsumos;
+        protected global::System.Web.UI.WebControls.Button btnAsignar;
     }
 }

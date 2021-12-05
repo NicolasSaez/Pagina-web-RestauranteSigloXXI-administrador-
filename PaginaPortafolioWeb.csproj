@@ -96,7 +96,13 @@
     <Content Include="Recursos\ASPX\Login.aspx" />
     <Content Include="Recursos\ASPX\MenuAdmin.aspx" />
     <Content Include="Recursos\ASPX\MantenedorCliente.aspx" />
+    <Content Include="Recursos\ASPX\MenuBodega.aspx" />
+    <Content Include="Recursos\ASPX\MenuCocina.aspx" />
+    <Content Include="Recursos\ASPX\MenuFinanzas.aspx" />
+    <Content Include="Recursos\ASPX\MenuRecepcion.aspx" />
+    <Content Include="Recursos\ASPX\RegistrarUsuarios.aspx" />
     <Content Include="Recursos\ASPX\ReponerInsumos.aspx" />
+    <Content Include="Recursos\ASPX\ResumenDatos.aspx" />
     <Content Include="Recursos\ASPX\SolicitarInsumos.aspx" />
     <Content Include="Recursos\CSS2\animate.min.css" />
     <Content Include="Recursos\CSS2\bootstrap-datetimepicker.css" />
@@ -258,12 +264,54 @@
     <Compile Include="Recursos\ASPX\MantenedorCliente.aspx.designer.cs">
       <DependentUpon>MantenedorCliente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Recursos\ASPX\MenuBodega.aspx.cs">
+      <DependentUpon>MenuBodega.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuBodega.aspx.designer.cs">
+      <DependentUpon>MenuBodega.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuCocina.aspx.cs">
+      <DependentUpon>MenuCocina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuCocina.aspx.designer.cs">
+      <DependentUpon>MenuCocina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuFinanzas.aspx.cs">
+      <DependentUpon>MenuFinanzas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuFinanzas.aspx.designer.cs">
+      <DependentUpon>MenuFinanzas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuRecepcion.aspx.cs">
+      <DependentUpon>MenuRecepcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\MenuRecepcion.aspx.designer.cs">
+      <DependentUpon>MenuRecepcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\RegistrarUsuarios.aspx.cs">
+      <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\RegistrarUsuarios.aspx.designer.cs">
+      <DependentUpon>RegistrarUsuarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recursos\ASPX\ReponerInsumos.aspx.cs">
       <DependentUpon>ReponerInsumos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Recursos\ASPX\ReponerInsumos.aspx.designer.cs">
       <DependentUpon>ReponerInsumos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\ResumenDatos.aspx.cs">
+      <DependentUpon>ResumenDatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\ResumenDatos.aspx.designer.cs">
+      <DependentUpon>ResumenDatos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Recursos\ASPX\SolicitarInsumos.aspx.cs">
       <DependentUpon>SolicitarInsumos.aspx</DependentUpon>

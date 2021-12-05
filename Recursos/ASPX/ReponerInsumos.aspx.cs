@@ -26,7 +26,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
 
         private void CargarGrilla()
         {
-            string qry = "select * from PRODUCTO";
+            string qry = "select * from RECETA";
             OracleDataAdapter da = new OracleDataAdapter(qry, conexion);
             DataSet ds = new DataSet();
             da.Fill(ds);
@@ -40,21 +40,14 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
         {
             txtidproducto.Text = gvinsumos.SelectedRow.Cells[1].Text;
             txtnombrep.Text = gvinsumos.SelectedRow.Cells[2].Text;
-            txtP_ID_RECETA.Text = gvinsumos.SelectedRow.Cells[3].Text;
-            txtTipoProducto.Text = gvinsumos.SelectedRow.Cells[4].Text;
-            txtPrecioUnidad.Text = gvinsumos.SelectedRow.Cells[5].Text;
-            txtcantidad.Text = gvinsumos.SelectedRow.Cells[6].Text;
-            txtStock.Text = gvinsumos.SelectedRow.Cells[7].Text;
-            txtP_ID_PROVEEDOR.Text = gvinsumos.SelectedRow.Cells[8].Text;
+            txtcantidad.Text = gvinsumos.SelectedRow.Cells[3].Text;
+
+
 
             txtidproducto.Enabled = false;
             txtnombrep.Enabled = false;
-            txtP_ID_RECETA.Enabled = false;
-            txtTipoProducto.Enabled = false;
-            txtPrecioUnidad.Enabled = false;
-            txtcantidad.Enabled = true;
-            txtStock.Enabled = true;
-            txtP_ID_PROVEEDOR.Enabled = false;
+
+
         }
 
         protected void btnreponer_Click(object sender, EventArgs e)
@@ -63,8 +56,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             OracleCommand comando = new OracleCommand("SP_Reponer_insumo", conexion);
             comando.CommandType = System.Data.CommandType.StoredProcedure;
             comando.Parameters.Add("id_prod", OracleDbType.Int16).Value = txtidproducto.Text; 
-            comando.Parameters.Add("CANTID", OracleDbType.Int16).Value = txtcantidad.Text;
-            comando.Parameters.Add("STOOCK", OracleDbType.Int16).Value = txtStock.Text;         
+            comando.Parameters.Add("STOOCK", OracleDbType.Int16).Value = txtcantidad.Text;         
             comando.ExecuteNonQuery();
             Response.Write("Se ha reponido el producto");
             conexion.Close();

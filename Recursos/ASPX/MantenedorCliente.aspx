@@ -17,14 +17,13 @@
 </head>
 <body>
 
-    <ul class="menu">
-            <li><a href="MenuAdmin.aspx">Inicio</a></li>
+   <ul class="menu">
+       <li><a href="MenuAdmin.aspx">Inicio</a></li>
 			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
 			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
 			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
-            <li><a href="IngresarRecetas.aspx">Ingresar Receta</a></li>
-            <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
-            <li><a href="AsignarMesa.aspx">Asignar Mesa</a></li>
+            <li><a href="RegistrarUsuarios.aspx">Registrar Usuarios</a></li>
+           <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
         <section class="form_wrap">

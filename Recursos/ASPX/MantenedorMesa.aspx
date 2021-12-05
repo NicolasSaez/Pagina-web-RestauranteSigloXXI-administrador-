@@ -16,14 +16,13 @@
     <title></title>
 </head>
 <body>
-     <ul class="menu">
-            <li><a href="MenuAdmin.aspx">Inicio</a></li>
+ <ul class="menu">
+       <li><a href="MenuAdmin.aspx">Inicio</a></li>
 			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
 			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
 			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
-            <li><a href="IngresarRecetas.aspx">Ingresar Receta</a></li>
-            <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
-            <li><a href="AsignarMesa.aspx">Asignar Mesa</a></li>
+            <li><a href="RegistrarUsuarios.aspx">Registrar Usuarios</a></li>
+           <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
 
@@ -46,7 +45,13 @@
                  <asp:TextBox runat="server" type="text" id="txtNumeroMesa" Enabled="false"/>
 
                 <label >Tamaño Mesa</label>
-                 <asp:TextBox runat="server" type="text" id="txttamaño"/>
+                 <asp:DropDownList ID="cmbMesas" runat="server" AppendDataBoundItems="true">
+                     <asp:ListItem Value="0">Seleccione una mesa</asp:ListItem>
+                     <asp:ListItem value="chica (2 personas)"></asp:ListItem>
+                     <asp:ListItem value="mediana(4-6 personas)"></asp:ListItem>
+                     <asp:ListItem value="grande (8-10 personas)"></asp:ListItem>
+
+                 </asp:DropDownList>
 
                 <label >Disponibilidad</label>
                  <asp:TextBox  runat="server" type="text" id="txtdisponibilidad"/>

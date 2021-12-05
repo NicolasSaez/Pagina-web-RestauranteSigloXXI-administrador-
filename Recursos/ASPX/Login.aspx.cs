@@ -12,6 +12,7 @@ namespace PaginaPortafolioWeb.ASPX
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
 
         }
         OracleConnection conexion = new OracleConnection("DATA SOURCE = xe ; PASSWORD = 123 ; USER ID = nicolas");
@@ -33,9 +34,24 @@ namespace PaginaPortafolioWeb.ASPX
                     conexion.Close();
 
                 }
-                if (lector["ROL"].ToString() == "NORMAL")
+                if (lector["ROL"].ToString() == "FINANZAS")
                 {
-                    Server.Transfer("HomeNormal.aspx");
+                    Server.Transfer("MenuFinanzas.aspx");
+                    conexion.Close();
+                }
+                if (lector["ROL"].ToString() == "BODEGUERO")
+                {
+                    Server.Transfer("MenuBodega.aspx");
+                    conexion.Close();
+                }
+                if (lector["ROL"].ToString() == "COCINERO")
+                {
+                    Server.Transfer("MenuCocina.aspx");
+                    conexion.Close();
+                }
+                if (lector["ROL"].ToString() == "RECEPCION")
+                {
+                    Server.Transfer("MenuRecepcion.aspx");
                     conexion.Close();
                 }
             }

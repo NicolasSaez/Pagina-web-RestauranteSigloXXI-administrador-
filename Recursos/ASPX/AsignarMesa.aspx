@@ -18,13 +18,8 @@
 <body>
 
      <ul class="menu">
-         <li><a href="MenuAdmin.aspx">Inicio</a></li>
-			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
-			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
-			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
-            <li><a href="IngresarRecetas.aspx">Ingresar Receta</a></li>
-            <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
             <li><a href="AsignarMesa.aspx">Asignar Mesa</a></li>
+          <li><a href="Login.aspx">Cerrar sesion</a></li>
 		</ul>
 
     <section class="form_wrap">
@@ -32,7 +27,7 @@
         <section class="cantact_info">
             <section class="info_title">
                 <span class="fa fa-user-circle"></span>
-                <h2>Ingresar<br>Receta</h2>
+                <h2>Asignar <br>Mesa</h2>
             </section>
             <section class="info_items">
                 

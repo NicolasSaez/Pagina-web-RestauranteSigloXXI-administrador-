@@ -27,7 +27,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
                 conexion.Open();
                 OracleCommand comando = new OracleCommand("SP_insertar_mesa", conexion);
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
-                comando.Parameters.Add("TamMesa", OracleDbType.Varchar2).Value = txttamaño.Text;
+                comando.Parameters.Add("TamMesa", OracleDbType.Varchar2).Value = cmbMesas.Text;
                 comando.Parameters.Add("Disp", OracleDbType.Int16).Value = txtdisponibilidad.Text;
                 comando.ExecuteNonQuery();
                 Response.Write("Se inserto exitosamente");
@@ -72,7 +72,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             OracleCommand comando = new OracleCommand("SP_actualizar_mesa", conexion);
             comando.CommandType = System.Data.CommandType.StoredProcedure;
             comando.Parameters.Add("N_MESA", OracleDbType.Int16).Value = txtNumeroMesa.Text;
-            comando.Parameters.Add("TamMesa", OracleDbType.Varchar2).Value = txttamaño.Text;
+            comando.Parameters.Add("TamMesa", OracleDbType.Varchar2).Value = cmbMesas.Text;
             comando.Parameters.Add("Disp", OracleDbType.Int16).Value = txtdisponibilidad.Text;
             comando.ExecuteNonQuery();
             Response.Write("Se actualizo correctamente");
@@ -85,12 +85,12 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
         {
 
             txtNumeroMesa.Text = gvmesa.SelectedRow.Cells[1].Text;
-            txttamaño.Text = gvmesa.SelectedRow.Cells[2].Text;
+            cmbMesas.Text = gvmesa.SelectedRow.Cells[2].Text;
             txtdisponibilidad.Text = gvmesa.SelectedRow.Cells[3].Text;
 
 
             txtNumeroMesa.Enabled = true;
-            txttamaño.Enabled = true;
+            cmbMesas.Enabled = true;
             txtdisponibilidad.Enabled = true;
 
         }

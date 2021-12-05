@@ -18,14 +18,9 @@
 <body>
 
      <ul class="menu">
-            <li><a href="MenuAdmin.aspx">Inicio</a></li>
-			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
-			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
-			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
-            <li><a href="IngresarRecetas.aspx">Ingresar Receta</a></li>
-            <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
-            <li><a href="AsignarMesa.aspx">Asignar Mesa</a></li>
+             <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
             <li><a href="ReponerInsumos.aspx">Reponer Insumos</a></li>
+            <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
     <section class="form_wrap">
@@ -42,30 +37,16 @@
      
             <h2>Completa los datos</h2>
             <div class="user_info">
-                <label >ID_PRODUCTO</label>
-                 <asp:TextBox runat="server" type="text" id="txtidproducto" Enabled="false"/>
+               
+                 <asp:TextBox runat="server" type="text" id="txtidproducto" Enabled="false" Visible="false"/>
 
                 <label >Nombre producto</label>
                  <asp:TextBox runat="server" type="text" id="txtnombrep" Enabled="false"/>
 
-                <label >Producto ID_RECETA</label>
-                 <asp:TextBox  runat="server" type="text" id="txtP_ID_RECETA" Enabled="false"/>
-
-                <label >Tipo de producto</label>
-                 <asp:TextBox  runat="server" type="text" id="txtTipoProducto" Enabled="false" />
-
-                <label >Precio unidad</label>
-                 <asp:TextBox runat="server" type="text" id="txtPrecioUnidad" Enabled="false" />
-
-                <label >Cantidad</label>
-                <asp:TextBox ID="txtcantidad" type="text" runat="server"></asp:TextBox>
-
                 <label >Stock</label>
-                 <asp:TextBox runat="server" type="text" id="txtStock" Enabled="false"/>
+                 <asp:TextBox runat="server" type="text" id="txtcantidad" Enabled="true"/>
 
-                <label >Producto ID_PROVEEDOR</label>
-                 <asp:TextBox runat="server" type="text" id="txtP_ID_PROVEEDOR" Enabled="false" />
-
+         
                 
 
                                
@@ -88,14 +69,11 @@
 
                         <asp:CommandField ShowSelectButton="True"  />
 
-                        <asp:BoundField HeaderText="Id producto  " DataField="ID_PRODUCTO"/>
-                        <asp:BoundField HeaderText="Nombre producto  " DataField="NOMBRE_PRODUCTO"/>
-                        <asp:BoundField HeaderText="Producto id receta  " DataField="PRODUCTO_ID_RECETA"/>
-                        <asp:BoundField HeaderText="Tipo producto  " DataField="TIPO_PRODUCTO"/>
-                        <asp:BoundField HeaderText="Precio unidad  " DataField="PRECIO_UNIDAD"/>
-                        <asp:BoundField HeaderText="Cantidad  " DataField="CANTIDAD"/>
-                        <asp:BoundField HeaderText="Stock" DataField="STOCK"/>
-                        <asp:BoundField HeaderText="Producto id proveedor  " DataField="PRODUCTO_ID_PROOVEDOR"/>
+                        <asp:BoundField HeaderText="ID  " DataField="ID_RECETA"/>    
+                        <asp:BoundField HeaderText="Producto  " DataField="NOMBRE_RECETA"/>                       
+                        <asp:BoundField HeaderText="Stock  " DataField="CANTIDAD"/>
+
+                     
 
 
 
