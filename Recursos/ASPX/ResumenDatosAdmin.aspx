@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ResumenDatos.aspx.cs" Inherits="PaginaPortafolioWeb.Recursos.ASPX.ResumenDatos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ResumenDatosAdmin.aspx.cs" Inherits="PaginaPortafolioWeb.Recursos.ASPX.ResumenDatosAdmin" %>
 
 <!DOCTYPE html>
 
@@ -17,10 +17,19 @@
     <title>Resumen de datos</title>
 </head>
 <body>
-    <ul class="menu">
+     <ul class="menu">
+       <li><a href="MenuAdmin.aspx">Inicio</a></li>
+			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
+			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
+			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
+            <li><a href="RegistrarUsuarios.aspx">Registrar Usuarios</a></li>
+            <li><a href="SolicitarInsumosAdmin.aspx">Solicitar Insumos</a></li>
+            <li><a href="ReponerInsumosAdmin.aspx">Reponer Insumos</a></li>
+            <li><a href="ResumenDatosAdmin.aspx">Resumen Datos</a></li>
+            <li><a href="IngresarRecetasAdmin.aspx">Ingresar Recetas</a></li>
+             <li><a href="AsignarMesaAdmin.aspx">Asignar Mesa</a></li>
 
-            <li><a href="ResumenDatos.aspx">Resumen de datos</a></li>
-        <li><a href="Login.aspx">Cerrar sesion</a></li>
+           <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
 

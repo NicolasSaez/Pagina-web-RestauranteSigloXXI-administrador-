@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#"  Debug="true" AutoEventWireup="true" CodeBehind="MantenedorMesa.aspx.cs" Inherits="PaginaPortafolioWeb.Recursos.ASPX.MantenedorMesa"  %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IngresarRecetasAdmin.aspx.cs" Inherits="PaginaPortafolioWeb.Recursos.ASPX.IngresarRecetasAdmin" %>
 
 <!DOCTYPE html>
 
@@ -13,10 +13,10 @@
 
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/script.js"></script>
-    <title></title>
+    <title>Ingresar Receta</title>
 </head>
 <body>
- <ul class="menu">
+     <ul class="menu">
        <li><a href="MenuAdmin.aspx">Inicio</a></li>
 			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
 			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
@@ -31,12 +31,13 @@
            <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
+
 	 <section class="form_wrap">
 
         <section class="cantact_info">
             <section class="info_title">
                 <span class="fa fa-user-circle"></span>
-                <h2>Mantenedor<br>de mesa</h2>
+                <h2>Ingresar<br>Receta</h2>
             </section>
             <section class="info_items">
                 
@@ -46,35 +47,32 @@
         <form runat="server" class="form_contact">
             <h2>Completa los datos</h2>
             <div class="user_info">
-                <label >Numero Mesa</label>
-                 <asp:TextBox runat="server" type="text" id="txtNumeroMesa" Enabled="false"/>
+                <label >ID RECETA</label>
+                 <asp:TextBox runat="server" type="text" id="txtIdReceta" Enabled="false"/>
 
-                <label >Tamaño Mesa</label>
-                 <asp:DropDownList ID="cmbMesas" runat="server" AppendDataBoundItems="true">
-                     <asp:ListItem Value="0">Seleccione una mesa</asp:ListItem>
-                     <asp:ListItem value="chica (2 personas)"></asp:ListItem>
-                     <asp:ListItem value="mediana(4-6 personas)"></asp:ListItem>
-                     <asp:ListItem value="grande (8-10 personas)"></asp:ListItem>
+                <label >Nombre de la receta</label>
+                 <asp:TextBox runat="server" type="text" id="txtRecetaN"/>
 
-                 </asp:DropDownList>
+                <label >Ingredientes</label>
+                 <asp:TextBox  runat="server" type="text" id="txtingredientes"/>
 
-                <label >Disponibilidad</label>
-                 <asp:TextBox  runat="server" type="text" id="txtdisponibilidad"/>
+                <label >Precio</label>
+                 <asp:TextBox  runat="server" type="text" id="txtprecio"/>
 
                
 
 
 
                  
-                <asp:Button runat="server" type="button" text="Guardar" id="btnSave"  CssClass="BtnGuardar" OnClick="btnSave_Click"  OnClientClick="return confirm('¿Desea guardar esta mesa?');"/>
-                <asp:Button runat="server" type="button" text="Borrar" id="btnDelete" CssClass="BtnBorrar" OnClick="btnDelete_Click" OnClientClick="return confirm('¿Desea eliminar la mesa?');"/>
-                <asp:Button runat="server" type="button" text="Actualizar" id="btnUpdate" CssClass="BtnActualizar" OnClick="btnUpdate_Click" OnClientClick="return confirm('¿Desea actualizar la mesa?');"  />
-                <asp:GridView ID="gvmesa" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnSelectedIndexChanged="gvmesa_SelectedIndexChanged"  >
+                <asp:Button runat="server" type="button" text="Guardar" id="btnSave"  CssClass="BtnGuardar" OnClick="btnSave_Click" OnClientClick="return confirm('¿Desea guardar esta receta?');" />
+                <asp:Button runat="server" type="button" text="Borrar" id="btnDelete" CssClass="BtnBorrar" OnClick="btnDelete_Click" OnClientClick="return confirm('¿Desea eliminar esta receta?');"/>
+                <asp:Button runat="server" type="button" text="Actualizar" id="btnUpdate" CssClass="BtnActualizar" OnClick="btnUpdate_Click"  OnClientClick="return confirm('¿Desea actualizar la receta?');" />
+            
+
+                 
+                <asp:GridView ID="gvrecetas" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                     <Columns>
-                        <asp:CommandField  ShowSelectButton="True" />
-                      
-                        
-                      
+                        <asp:CommandField ShowSelectButton="True" />
                     </Columns>
                     <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                     <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
@@ -86,7 +84,7 @@
                     <SortedDescendingCellStyle BackColor="#D6DFDF" />
                     <SortedDescendingHeaderStyle BackColor="#002876" />
                 </asp:GridView>
-                
+            
 
                  
             </div>

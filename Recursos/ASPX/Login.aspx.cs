@@ -57,7 +57,7 @@ namespace PaginaPortafolioWeb.ASPX
             }
             else
             {
-                Response.Write("Usuario O contraseña incorrecta");
+                Response.Write("<script language=javascript>alert('Usuario o contraseña incorrecta, intentelo nuevamente');</script>");
             }
         }
     }

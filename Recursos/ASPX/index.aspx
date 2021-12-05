@@ -856,7 +856,7 @@
                              <!-- end col -->
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="reserve-book-btn text-center">
-                                    <asp:Button  type="submit" value="SEND" id="Button1" runat="server" Text="Registrarse como cliente" CssClass="hvr-underline-from-center" OnClick="submit_Click"></asp:button>
+                                    <asp:Button  type="submit" value="SEND" id="Button1" runat="server" Text="Registrarse como cliente" CssClass="hvr-underline-from-center" OnClick="submit_Click" OnClientClick="return confirm('¿Desea realizar esta accion?');"></asp:button>
                                 </div>
 
 
@@ -898,9 +898,9 @@
 
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="reserve-book-btn text-center">
-                                    <asp:Button  type="submit" value="SEND" id="btnreserva" runat="server" Text="Realizar reserva" CssClass="hvr-underline-from-center" OnClick="btnreserva_Click"></asp:button>
+                                    <asp:Button  type="submit" value="SEND" id="btnreserva" runat="server" Text="Realizar reserva" CssClass="hvr-underline-from-center" OnClick="btnreserva_Click" OnClientClick="return confirm('¿Desea realizar su reserva?');"></asp:button>
                                     <asp:TextBox ID="txtidreserva" runat="server" placeholder="Ingrese su id de reserva" AutoPostBack="true"></asp:TextBox>  
-                                    <asp:Button  type="submit" value="SEND" id="bntcancelar" runat="server" Text="Cancelar reserva" CssClass="hvr-underline-from-center" OnClick="bntcancelar_Click" ></asp:button>
+                                    <asp:Button  type="submit" value="SEND" id="bntcancelar" runat="server" Text="Cancelar reserva" CssClass="hvr-underline-from-center" OnClick="bntcancelar_Click"  OnClientClick="return confirm('¿Desea cancelar su reserva?');"></asp:button>
                                 </div>
 
                                       </div>  

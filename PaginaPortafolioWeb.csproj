@@ -88,8 +88,10 @@
     <Content Include="css\theme.css" />
     <Content Include="css\triangle.css" />
     <Content Include="Recursos\ASPX\AsignarMesa.aspx" />
+    <Content Include="Recursos\ASPX\AsignarMesaAdmin.aspx" />
     <Content Include="Recursos\ASPX\index.aspx" />
     <Content Include="Recursos\ASPX\IngresarRecetas.aspx" />
+    <Content Include="Recursos\ASPX\IngresarRecetasAdmin.aspx" />
     <Content Include="Recursos\ASPX\MantenedorMesa.aspx" />
     <Content Include="Recursos\ASPX\MantenedorProducto.aspx" />
     <Content Include="Recursos\ASPX\HomeNormal.aspx" />
@@ -102,8 +104,11 @@
     <Content Include="Recursos\ASPX\MenuRecepcion.aspx" />
     <Content Include="Recursos\ASPX\RegistrarUsuarios.aspx" />
     <Content Include="Recursos\ASPX\ReponerInsumos.aspx" />
+    <Content Include="Recursos\ASPX\ReponerInsumosAdmin.aspx" />
     <Content Include="Recursos\ASPX\ResumenDatos.aspx" />
+    <Content Include="Recursos\ASPX\ResumenDatosAdmin.aspx" />
     <Content Include="Recursos\ASPX\SolicitarInsumos.aspx" />
+    <Content Include="Recursos\ASPX\SolicitarInsumosAdmin.aspx" />
     <Content Include="Recursos\CSS2\animate.min.css" />
     <Content Include="Recursos\CSS2\bootstrap-datetimepicker.css" />
     <Content Include="Recursos\CSS2\bootstrap-select.min.css" />
@@ -207,6 +212,13 @@
     <Compile Include="Recursos\ASPX\AsignarMesa.aspx.designer.cs">
       <DependentUpon>AsignarMesa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Recursos\ASPX\AsignarMesaAdmin.aspx.cs">
+      <DependentUpon>AsignarMesaAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\AsignarMesaAdmin.aspx.designer.cs">
+      <DependentUpon>AsignarMesaAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recursos\ASPX\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -220,6 +232,13 @@
     </Compile>
     <Compile Include="Recursos\ASPX\IngresarRecetas.aspx.designer.cs">
       <DependentUpon>IngresarRecetas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\IngresarRecetasAdmin.aspx.cs">
+      <DependentUpon>IngresarRecetasAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\IngresarRecetasAdmin.aspx.designer.cs">
+      <DependentUpon>IngresarRecetasAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Recursos\ASPX\MantenedorMesa.aspx.cs">
       <DependentUpon>MantenedorMesa.aspx</DependentUpon>
@@ -306,6 +325,13 @@
     <Compile Include="Recursos\ASPX\ReponerInsumos.aspx.designer.cs">
       <DependentUpon>ReponerInsumos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Recursos\ASPX\ReponerInsumosAdmin.aspx.cs">
+      <DependentUpon>ReponerInsumosAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\ReponerInsumosAdmin.aspx.designer.cs">
+      <DependentUpon>ReponerInsumosAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recursos\ASPX\ResumenDatos.aspx.cs">
       <DependentUpon>ResumenDatos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -313,12 +339,26 @@
     <Compile Include="Recursos\ASPX\ResumenDatos.aspx.designer.cs">
       <DependentUpon>ResumenDatos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Recursos\ASPX\ResumenDatosAdmin.aspx.cs">
+      <DependentUpon>ResumenDatosAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\ResumenDatosAdmin.aspx.designer.cs">
+      <DependentUpon>ResumenDatosAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recursos\ASPX\SolicitarInsumos.aspx.cs">
       <DependentUpon>SolicitarInsumos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Recursos\ASPX\SolicitarInsumos.aspx.designer.cs">
       <DependentUpon>SolicitarInsumos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ASPX\SolicitarInsumosAdmin.aspx.cs">
+      <DependentUpon>SolicitarInsumosAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ASPX\SolicitarInsumosAdmin.aspx.designer.cs">
+      <DependentUpon>SolicitarInsumosAdmin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

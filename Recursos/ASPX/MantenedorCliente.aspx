@@ -17,12 +17,18 @@
 </head>
 <body>
 
-   <ul class="menu">
+  <ul class="menu">
        <li><a href="MenuAdmin.aspx">Inicio</a></li>
 			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
 			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
 			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
             <li><a href="RegistrarUsuarios.aspx">Registrar Usuarios</a></li>
+            <li><a href="SolicitarInsumosAdmin.aspx">Solicitar Insumos</a></li>
+            <li><a href="ReponerInsumosAdmin.aspx">Reponer Insumos</a></li>
+            <li><a href="ResumenDatosAdmin.aspx">Resumen Datos</a></li>
+            <li><a href="IngresarRecetasAdmin.aspx">Ingresar Recetas</a></li>
+             <li><a href="AsignarMesaAdmin.aspx">Asignar Mesa</a></li>
+
            <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
@@ -66,9 +72,9 @@
 
 
                 
-                <asp:Button runat="server" type="button" text="Guardar" id="btnSave"  CssClass="BtnGuardar" OnClick="btnSave_Click" />
-                <asp:Button runat="server" type="button" text="Borrar" id="btnDelete" CssClass="BtnBorrar" OnClick="btnDelete_Click" />
-                <asp:Button runat="server" type="button" text="Actualizar" id="btnUpdate" CssClass="BtnActualizar" OnClick="btnUpdate_Click"  />
+                <asp:Button runat="server" type="button" text="Guardar" id="btnSave"  CssClass="BtnGuardar" OnClick="btnSave_Click" OnClientClick="return confirm('¿Desea guardarlo?');"/>
+                <asp:Button runat="server" type="button" text="Borrar" id="btnDelete" CssClass="BtnBorrar" OnClick="btnDelete_Click" OnClientClick="return confirm('¿Desea eliminarlo?');" />
+                <asp:Button runat="server" type="button" text="Actualizar" id="btnUpdate" CssClass="BtnActualizar" OnClick="btnUpdate_Click" OnClientClick="return confirm('¿Desea actualizarlo?');"  />
 
 
                 <asp:GridView ID="gvclientes" runat="server"  AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="104%" OnSelectedIndexChanged="gvclientes_SelectedIndexChanged"  >

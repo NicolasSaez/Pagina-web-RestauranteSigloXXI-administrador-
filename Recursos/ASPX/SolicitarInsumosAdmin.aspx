@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SolicitarInsumos.aspx.cs" Inherits="PaginaPortafolioWeb.Recursos.ASPX.SolicitarInsumos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SolicitarInsumosAdmin.aspx.cs" Inherits="PaginaPortafolioWeb.Recursos.ASPX.SolicitarInsumosAdmin" %>
 
 <!DOCTYPE html>
 
@@ -17,10 +17,19 @@
 </head>
 <body>
 
-    <ul class="menu">
-           <li><a href="SolicitarInsumos.aspx">Solicitar Insumos</a></li>
-            <li><a href="ReponerInsumos.aspx">Reponer Insumos</a></li>
-            <li><a href="Login.aspx">Cerrar sesion</a></li>
+   <ul class="menu">
+       <li><a href="MenuAdmin.aspx">Inicio</a></li>
+			<li><a href="MantenedorProducto.aspx">Mantenedor Producto</a></li>
+			<li><a href="MantenedorCliente.aspx">Mantenedor Cliente</a></li>
+			<li><a href="MantenedorMesa.aspx">Mantenedor Mesa</a></li>
+            <li><a href="RegistrarUsuarios.aspx">Registrar Usuarios</a></li>
+            <li><a href="SolicitarInsumosAdmin.aspx">Solicitar Insumos</a></li>
+            <li><a href="ReponerInsumosAdmin.aspx">Reponer Insumos</a></li>
+            <li><a href="ResumenDatosAdmin.aspx">Resumen Datos</a></li>
+            <li><a href="IngresarRecetasAdmin.aspx">Ingresar Recetas</a></li>
+             <li><a href="AsignarMesaAdmin.aspx">Asignar Mesa</a></li>
+
+           <li><a href="Login.aspx">Cerrar sesion</a></li>
 			
 		</ul>
 
