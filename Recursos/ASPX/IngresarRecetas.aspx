@@ -51,6 +51,9 @@
                 <label >Precio</label>
                  <asp:TextBox  runat="server" type="text" id="txtprecio"/>
 
+                <label >Cantidad</label>
+                 <asp:TextBox  runat="server" type="text" id="txtcantidad"/>
+
                
 
 

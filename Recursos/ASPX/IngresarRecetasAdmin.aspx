@@ -59,6 +59,11 @@
                 <label >Precio</label>
                  <asp:TextBox  runat="server" type="text" id="txtprecio"/>
 
+                <label >Cantidad</label>
+                 <asp:TextBox  runat="server" type="text" id="txtcantidad"/>
+
+
+
                
 
 
@@ -70,7 +75,7 @@
             
 
                  
-                <asp:GridView ID="gvrecetas" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                <asp:GridView ID="gvrecetas" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" >
                     <Columns>
                         <asp:CommandField ShowSelectButton="True" />
                     </Columns>

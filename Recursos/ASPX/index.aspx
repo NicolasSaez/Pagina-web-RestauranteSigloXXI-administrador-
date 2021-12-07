@@ -74,6 +74,7 @@
                                     <li><a href="#blog">Precios</a></li>
                                     <li><a href="#reservation">Reservacion</a></li>
                                     <li><a href="#footer">Contactanos</a></li>
+                                    <li><a href="Login.aspx">Iniciar sesion</a></li>
                                 </ul>
                             </div>
                             <!-- end nav-collapse -->
@@ -96,7 +97,7 @@
                     <div class="banner-text">
                         <div class="banner-cell">
                             <h1>Ven con tus  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Amigos:Familiares" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
-                           <p>Bienvenidos a restaurant SIA</p>
+                           <p>Bienvenidos a restaurante Siglo XXI</p>
                             <div class="book-btn">
                                 <a href="#reservation" class="table-btn hvr-underline-from-center">Reservar mi mesa</a>
                             </div>
@@ -122,12 +123,11 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title"> Sobre nosotros </h2>
-                          <h3>Titulo</h3>
-                        <p> parrafo </p>
+                          <h3>Satisfacer tu paladar con nuestras clasicas recetas que cautivan a todos!</h3>
+                        <p> Proporcionar una experiencia inolvidable, en conjunto con profesionales, que, con dedicacion y pasion logran entregar un sabor para tu gusto. Gracias a nuestros 
+                            50 años en el rubro, podemos ortorgar una garantia de un buen plato junto a tus seres queridos.
+                        </p>
 
-                        <p> parrafo </p>
-
-                        <p> parrafo </p>
                     </div>
                 </div>
                 <!-- end col -->
@@ -159,9 +159,9 @@
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                           SALMON STEAK
+                                           BISTEC DE SALMON EN TROZOS
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Salmon asado, cortado en trozos, junto con palta y un acompañamiento. Ideal para los amantes de los platos que nos entrega el mar</div>
                                         </div>
                                     </div>
                                 </a>
@@ -173,9 +173,11 @@
                                 <a href="#" class="item-hover">
                                     <div class="item-info">
                                         <div class="headline">
-                                            VEG. ROLL
+                                            PIZZA ITALIANA
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Con una variedad de ingredientes, totalmente frescos y del huerto, se busca satisfacer las necesidades de los clientes... especialmente,
+                                                los que prefieren no comer animales
+                                            </div>
                                         </div>
                                     </div>
                                 </a>
@@ -203,7 +205,6 @@
                         <h2 class="block-title text-center">
 						Menu 	
 					</h2>
-                     <p class="title-caption text-center">Sub titulo </p>
                     </div>
                     <div class="tab-menu">
                         <div class="slider slider-nav">
@@ -232,10 +233,9 @@
                                         <div>
                                             <h3>Pan de ajo</h3>
                                             <p>
-                                                descripcion
+                                                Pan amasado, con la variedad de ajo negro, blanco y morado, para obtener mayor concentracion del sabor proveniente de la solicitada especie
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$1.000</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -243,12 +243,12 @@
                                     <div class="offer-item">
                                         <img src="../IMAGES/menu-item-thumbnail-02.jpg" alt="" class="img-responsive"/>
                                         <div>
-                                            <h3>Ensalada mixta</h3>
+                                            <h3>Ensalada cesar</h3>
                                             <p>
-                                                Descripcion
+                                                Clasica ensalada de lechuga romana y croutons, con jugo de limon, aceite de oliva, huevo, ajo, mostaza de Dijon, queso parmecano, pimienta negra
+                                                y salsda worcestershire (preparacion con toque del local!)
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$1.000</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -258,10 +258,9 @@
                                         <div>
                                             <h3>Alitas de pollo</h3>
                                             <p>
-                                               Descripcion
+                                               Ideal para personas amante de las carnes blancas, preparacion de las clasicas alitas de pollo, con un salsa preparada en el local.
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$1.000</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -271,12 +270,12 @@
                                     <div class="offer-item">
                                         <img src="../IMAGES/menu-item-thumbnail-04.jpg" alt="" class="img-responsive"/>
                                         <div>
-                                            <h3>Pizza todas las carnes</h3>
+                                            <h3>Pizza Vegetariana</h3>
                                             <p>
-                                                Descripcion
+                                                Plato con especial dedicacion para quienes llevan un estilo de vida diferente a nuestra cultura clasica,
+                                                donde solo obtendra verduras frescas proveniente de nuestros huertos
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$1.000</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -284,12 +283,11 @@
                                     <div class="offer-item">
                                         <img src="../IMAGES/menu-item-thumbnail-05.jpg" alt="" class="img-responsive"/>
                                         <div>
-                                            <h3>Pollo</h3>
+                                            <h3>Guiso de Carne</h3>
                                             <p>
-                                                Descripcion
+                                                Preparacion casera, ideal para los amantes de las carnes, ya que con este plato, podras disgustar una gran variedad de carnes premium que ofrece el local
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$1500</span>
+                                        </div>                                       
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -299,10 +297,9 @@
                                         <div>
                                             <h3>Albondigas picantes</h3>
                                             <p>
-                                               Descripcion
+                                               Ideal para los amantes de lo picante y con un buen paladar, quienes desean experimentar un sabor intenso
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$6000</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -312,38 +309,11 @@
                                     <div class="offer-item">
                                         <img src="../IMAGES/menu-item-thumbnail-07.jpg" alt="" class="img-responsive"/>
                                         <div>
-                                            <h3>queque de chocolate</h3>
+                                            <h3>Torta de Chocolate</h3>
                                             <p>
-                                                Descripcion
+                                                Un toque dulce para finalizar la degustacion y que mejor que un trozo de una torta de chocolate, para todos aquellos amantes de los sabores dulces.
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$4000</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="../IMAGES/menu-item-thumbnail-08.jpg" alt="" class="img-responsive"/>
-                                        <div>
-                                            <h3>Pollo</h3>
-                                            <p>
-                                               Descripcion
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$9.5</span>
-                                    </div>
-                                </div>
-                                <!-- end col -->
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                                    <div class="offer-item">
-                                        <img src="../IMAGES/menu-item-thumbnail-09.jpg" alt="" class="img-responsive"/>
-                                        <div>
-                                            <h3>Pollo</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis eleifend dapibus.
-                                            </p>
-                                        </div>
-                                        <span class="offer-price">$1000</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -353,12 +323,11 @@
                                     <div class="offer-item">
                                         <img src="../IMAGES/menu-item-thumbnail-10.jpg" alt="" class="img-responsive"/>
                                         <div>
-                                            <h3>Champagne</h3>
+                                            <h3>Vinos</h3>
                                             <p>
-                                               Descripcion
+                                               Gran variedad de vinos, todos directamente desde las viñas chilenas y francesas, todas estas opciones son vinos de reserva.
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$12.5</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -368,10 +337,9 @@
                                         <div>
                                             <h3>Cerveza</h3>
                                             <p>
-                                               Descripcion
+                                               Caceras, artesanales, o las clasicas marcas de cervezas, puedes encontrar en nuestro local.
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$9.5</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -381,10 +349,9 @@
                                         <div>
                                             <h3>Cafe</h3>
                                             <p>
-                                                Descripcion
+                                                Cafe en grano, excelente opcion como bajativo de lo que se consumio durante la velada.
                                             </p>
-                                        </div>
-                                        <span class="offer-price">$5.5</span>
+                                        </div>                                        
                                     </div>
                                 </div>
                                 <!-- end col -->
@@ -407,9 +374,9 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title text-center">
-						Nuestro chefs 		
+						Personal		
 					</h2>
-                       <p class="title-caption text-center">Descripcion </p>
+                       <p class="title-caption text-center">Encargados de areas</p>
                     </div>
                     <div class="team-box">
 
@@ -420,8 +387,10 @@
                                         <a href="#"><img src="../images/staff-01.jpg" alt=""></a>
                                     </div>
                                     <div class="text-col">
-                                        <h3>John Doggett</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <h3>Juan Doggett</h3>
+                                        <p>Encargado de la cocina, aquel ambiente en el cual mejor se desenvuelve. Juan ha trabajo junto a nosotros durante los ultimos 20 años, por lo cual, conoce a la perfeccion
+                                            las recetas y cada uno de sus ingredientes.
+                                        </p>
                                         <ul class="team-social">
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -437,8 +406,10 @@
                                         <a href="#"><img src="../images/staff-02.jpg" alt=""></a>
                                     </div>
                                     <div class="text-col">
-                                        <h3>Jeffrey Spender</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <h3>Francisco Spender</h3>
+                                        <p>Con una gran lado paternal, su lado filantropo muy desarrollado, junto con querer un bien comun para todos, Fracisco es el encargado de los garzones que trabajan el local
+                                            quienes son las primera cara de nuestro restaurante.
+                                        </p>
                                         <ul class="team-social">
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -455,7 +426,9 @@
                                     </div>
                                     <div class="text-col">
                                         <h3>Monica Reyes</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <p>La recepcion es de suma importancia, ya que es con quien se comunica los clientes en primera instancia cuando ingresan al local, tambien permite solucionar dudas, como
+                                           tambien asignar y cancelar mesas. La encarga llamada Monica
+                                        </p>
                                         <ul class="team-social">
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -488,7 +461,7 @@
                         <h2 class="block-title text-center">
 						Galeria
 					</h2>
-                        <p class="title-caption text-center">Descripcion </p>
+                        
                     </div>
                     <div class="gal-container clearfix">
                         <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
@@ -722,15 +695,15 @@
                                 <h3>Basic</h3>
                             </div>
                             <div class="panel-body text-center">
-                                <p><strong>$30.000<span></span></strong></p>
+                                <p><strong>Entradas<span></span></strong></p>
                             </div>
                             <ul class="list-group text-center">
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato1</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato2</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato3</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato4</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato5</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato6</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Pan de Ajo $1.300</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Alitas de Pollo - $2.000</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Ceviche de Pescado al Olivar - $10.450</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Cicharron de Camaron - $10.500</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Surtido de Empanadas Criollas - $8.750</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Ensalada Cesar - $4.990</li>
                             </ul>
                             <div class="panel-footer">
                              
@@ -749,15 +722,15 @@
                                 <h3>Pro</h3>
                             </div>
                             <div class="panel-body text-center">
-                                <p><strong>$30.000<span></span></strong></p>
+                                <p><strong>Platos<span></span></strong></p>
                             </div>
                             <ul class="list-group text-center">
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato1</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato2</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato3</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato4</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato5</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato6</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i>Pizza Vegetariana - $4.950</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i>Albondigas Picantes - $6.950</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i>Lasagna Bolognesa/Crema - $6.999</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i>Guizo de Carne  - $7.950</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i>Atun Marinero - $11.950</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i>Risotto de Camarones con Azafrán - $10.550</li>
                             </ul>
                             <div class="panel-footer">
                                 
@@ -776,15 +749,15 @@
                                 <h3>Platinum</h3>
                             </div>
                             <div class="panel-body text-center">
-                                <p><strong>$30.000<span></span></strong></p>
+                                <p><strong>Bebestibles<span></span></strong></p>
                             </div>
                             <ul class="list-group text-center">
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato1</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato2</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato3</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato4</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato5</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> dato6</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Cerveza Austral Calafate - $3.290</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Cerveza Austral Lager - $3.290</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Cerveza Escudo - $1.890</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Vino Las Mulas Reserva - $11.990</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Tasa de Cafe - $1.500</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bebidas - $1.850</li>
                             </ul>
                             <div class="panel-footer">
                              
@@ -812,8 +785,8 @@
 						Datos Cliente
 					</h2>
                         </div>
-                        <h4 class="form-title">FORMULARIO DE Cliente</h4>
-                        <p>POR FAVOR LLENE TODOS LOS CAMPOS REQUERIDOS. ¡GRACIAS!</p>
+                        <h4 class="form-title">FORMULARIO DE CLIENTES</h4>
+                        <p>Por favor llene todos los campos del siguiente formulario. ¡Gracias!</p>
 
                         <form id="contact-form" method="post" class="reservations-box" name="contactform" action="mail.php"/>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -872,7 +845,7 @@
                            
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-box">
-                                    <asp:TextBox ID="txtidclienteReserva" runat="server" placeholder="Ingrese su id de cliente"></asp:TextBox>  
+                                    <asp:TextBox ID="txtidclienteReserva" runat="server" placeholder="Ingrese su id de cliente o su id de reserva"></asp:TextBox>  
                                 </div>
                             </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -883,7 +856,7 @@
 
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-box">
-                                    <asp:TextBox ID="txtidmesa" runat="server" placeholder="Ingrese su id de cliente" AutoPostBack="true"></asp:TextBox>  
+                                    <asp:TextBox ID="txtidmesa" runat="server" placeholder="Ingrese su id de cliente" AutoPostBack="true" Visible="false"></asp:TextBox>  
                                 </div>
                             </div>
 
@@ -899,7 +872,7 @@
                                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="reserve-book-btn text-center">
                                     <asp:Button  type="submit" value="SEND" id="btnreserva" runat="server" Text="Realizar reserva" CssClass="hvr-underline-from-center" OnClick="btnreserva_Click" OnClientClick="return confirm('¿Desea realizar su reserva?');"></asp:button>
-                                    <asp:TextBox ID="txtidreserva" runat="server" placeholder="Ingrese su id de reserva" AutoPostBack="true"></asp:TextBox>  
+                                    <asp:TextBox ID="txtidreserva" runat="server" placeholder="Ingrese su id de reserva" AutoPostBack="true" Visible="false"></asp:TextBox>  
                                     <asp:Button  type="submit" value="SEND" id="bntcancelar" runat="server" Text="Cancelar reserva" CssClass="hvr-underline-from-center" OnClick="bntcancelar_Click"  OnClientClick="return confirm('¿Desea cancelar su reserva?');"></asp:button>
                                 </div>
 
@@ -958,7 +931,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-box-a">
                                 <h3>Sobre nosotros</h3>
-                                <p>descripcion</p>
+                                <p>Restorante con recetas clasicas del local, con 50 años de aprobacion de todos sus clientes!</p>
                                 <ul class="socials-box footer-socials pull-left">
                                     <li>
                                         <a href="#">
@@ -990,7 +963,7 @@
                             </div>
                             <!-- end footer-box-a -->
                         </div>
-                        <!-- end col -->
+                        <%--<!-- end col -->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-box-b">
                                 <h3>Nuestro Menu</h3>
@@ -1002,14 +975,14 @@
                                 </ul>
                             </div>
                             <!-- end footer-box-b -->
-                        </div>
+                        </div>--%>
                         <!-- end col -->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-box-c">
                                 <h3>Contactanos</h3>
                                 <p>
                                     <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                    <span>ñuñoa perro</span>
+                                    <span>Barrio Italia #435, Ñuñoa, Santiago</span>
                                 </p>
                                 <p>
                                     <i class="fa fa-mobile" aria-hidden="true"></i>
@@ -1019,7 +992,7 @@
                                 </p>
                                 <p>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="#">sia@gmail.com</a></span>
+                                    <span><a href="#">RestauranteSiglo21@contacto.com</a></span>
                                 </p>
                             </div>
                             <!-- end footer-box-c -->
@@ -1032,11 +1005,11 @@
                                 <ul>
                                     <li>
                                         <p>lunes a viernes </p>
-                                        <span> 11:00 AM - 9:00 PM</span>
+                                        <span> 11:00 - 22:00</span>
                                     </li>
                                     <li>
                                         <p>sabado y domingo </p>
-                                        <span>  11:00 AM - 5:00 PM</span>
+                                        <span>  11:00 - 23:00 PM</span>
                                     </li>
                                 </ul>
                             </div>

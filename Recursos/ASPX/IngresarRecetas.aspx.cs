@@ -62,6 +62,8 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             txtIdReceta.Text = gvrecetas.SelectedRow.Cells[1].Text;
             txtRecetaN.Text = gvrecetas.SelectedRow.Cells[2].Text;
             txtingredientes.Text = gvrecetas.SelectedRow.Cells[3].Text;
+            txtprecio.Text = gvrecetas.SelectedRow.Cells[4].Text;
+            txtcantidad.Text = gvrecetas.SelectedRow.Cells[5].Text;
 
 
             txtIdReceta.Enabled = true;
@@ -72,13 +74,14 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
         protected void btnUpdate_Click(object sender, EventArgs e)
         {
             conexion.Open();
-            OracleCommand comando = new OracleCommand("SP_actualizar_receta", conexion);
+            OracleCommand comando = new OracleCommand("SP_insertar_receta", conexion);
             comando.CommandType = System.Data.CommandType.StoredProcedure;
-            comando.Parameters.Add("id_rece", OracleDbType.Int16).Value = txtIdReceta.Text;
-            comando.Parameters.Add("N_receta", OracleDbType.Varchar2).Value = txtRecetaN.Text;
-            comando.Parameters.Add("ingredents", OracleDbType.Varchar2).Value = txtingredientes.Text;
+            comando.Parameters.Add("Nreceta", OracleDbType.Varchar2).Value = txtRecetaN.Text;
+            comando.Parameters.Add("Ingredent", OracleDbType.Varchar2).Value = txtingredientes.Text;
+            comando.Parameters.Add("price", OracleDbType.Varchar2).Value = txtprecio.Text;
+            comando.Parameters.Add("cant", OracleDbType.Varchar2).Value = txtcantidad.Text;
             comando.ExecuteNonQuery();
-            Response.Write("Se actualizo correctamente");
+            Response.Write("Se inserto exitosamente");
             conexion.Close();
         }
 

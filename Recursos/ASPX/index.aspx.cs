@@ -16,7 +16,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
                 txtFechaSol.Enabled = false;
                 InicialProductos();
                 txtidmesa.Enabled = false;
-                txtidmesa.Visible = false;
+               
 
 
             }
@@ -44,7 +44,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
                 comando.ExecuteNonQuery();
 
                 var identidad = (comando.Parameters["identidad"].Value);
-                Response.Write("su id es " + identidad);
+                Response.Write("su id de cliente es " + identidad);
 
 
 
@@ -52,7 +52,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             }
             catch (OracleException ex)
             {
-                Response.Write("No se registrar, intentelo nuevamente" + ex.Message);
+                Response.Write("No se ha podido registrar, intentelo nuevamente" + ex.Message);
             }
             conexion.Close();
         }
@@ -127,7 +127,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
 
 
                 var identidad = (comando.Parameters["identidad"].Value);
-                Response.Write("su id es " + identidad);
+                Response.Write("su id de reserva es " + identidad);
 
 
             }

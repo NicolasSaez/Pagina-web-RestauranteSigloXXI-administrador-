@@ -19,7 +19,7 @@
 
      <ul class="menu">
             <li><a href="AsignarMesa.aspx">Asignar Mesa</a></li>
-          <li><a href="Login.aspx">Cerrar sesion</a></li>
+          <li ><a href="Login.aspx">Cerrar sesion</a></li>
 		</ul>
 
     <section class="form_wrap">

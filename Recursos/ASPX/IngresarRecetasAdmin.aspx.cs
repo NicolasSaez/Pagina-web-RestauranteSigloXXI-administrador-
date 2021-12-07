@@ -31,6 +31,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
                 comando.Parameters.Add("Nreceta", OracleDbType.Varchar2).Value = txtRecetaN.Text;
                 comando.Parameters.Add("Ingredent", OracleDbType.Varchar2).Value = txtingredientes.Text;
                 comando.Parameters.Add("price", OracleDbType.Varchar2).Value = txtprecio.Text;
+                comando.Parameters.Add("cant", OracleDbType.Varchar2).Value = txtcantidad.Text;
                 comando.ExecuteNonQuery();
                 Response.Write("Se inserto exitosamente");
                 conexion.Close();
@@ -62,6 +63,9 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             txtIdReceta.Text = gvrecetas.SelectedRow.Cells[1].Text;
             txtRecetaN.Text = gvrecetas.SelectedRow.Cells[2].Text;
             txtingredientes.Text = gvrecetas.SelectedRow.Cells[3].Text;
+            txtprecio.Text = gvrecetas.SelectedRow.Cells[4].Text;
+            txtcantidad.Text = gvrecetas.SelectedRow.Cells[5].Text;
+
 
 
             txtIdReceta.Enabled = true;
@@ -92,5 +96,7 @@ namespace PaginaPortafolioWeb.Recursos.ASPX
             Response.Write("Se ha borrado la recets");
             conexion.Close();
         }
+
+     
     }
 }
